@@ -1,4 +1,5 @@
 # Headers_API
+```
 const options = {
   method: 'GET',
   url: 'https://fitness-calculator.p.rapidapi.com/bmi',
@@ -12,3 +13,4 @@ const options = {
     'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
   }
 };
+```
