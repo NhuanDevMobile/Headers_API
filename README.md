@@ -9,7 +9,7 @@ const options = {
   method: 'GET',
   url: 'https://fitness-calculator.p.rapidapi.com/activities',
   params: {
-    intensitylevel: '1'
+    intensitylevel: '1' // Truyền bằng 1
   },
   headers: {
     'X-RapidAPI-Key': '235cc78a3amshf3d2575cef0c6ffp163219jsnd73c7623ede3',
@@ -38,9 +38,9 @@ const options = {
   method: 'GET',
   url: 'https://fitness-calculator.p.rapidapi.com/burnedcalorie',
   params: {
-    activityid: 'ho_16',
-    activitymin: '25',
-    weight: '75'
+    activityid: 'ho_16', // ID get từ hoạt động
+    activitymin: '25', // Truyền cố định
+    weight: '75' // Cân năng cá nhân
   },
   headers: {
     'X-RapidAPI-Key': '235cc78a3amshf3d2575cef0c6ffp163219jsnd73c7623ede3',
@@ -64,9 +64,9 @@ const options = {
   method: 'GET',
   url: 'https://fitness-calculator.p.rapidapi.com/bmi',
   params: {
-    age: '25',
-    weight: '65',
-    height: '180'
+    age: '25', // Truyền tuổi của bản thân
+    weight: '65', // Cân nặng
+    height: '180' // Chiều cao
   },
   headers: {
     'X-RapidAPI-Key': '235cc78a3amshf3d2575cef0c6ffp163219jsnd73c7623ede3',
