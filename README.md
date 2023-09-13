@@ -62,23 +62,6 @@ Response
 
 const options = {
   method: 'GET',
-  url: 'https://fitness-calculator.p.rapidapi.com/burnedcalorie',
-  params: {
-    activityid: 'ho_16',
-    activitymin: '25',
-    weight: '75'
-  },
-  headers: {
-    'X-RapidAPI-Key': '235cc78a3amshf3d2575cef0c6ffp163219jsnd73c7623ede3',
-    'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
-  }
-};
-
-
-#API TÍNH CHỈ SỐ API
-
-const options = {
-  method: 'GET',
   url: 'https://fitness-calculator.p.rapidapi.com/bmi',
   params: {
     age: '25',
@@ -90,6 +73,17 @@ const options = {
     'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
   }
 };
+
+Response
+{
+    "status_code": 200,
+    "request_result": "Successful",
+    "data": {
+        "bmi": 20.06,
+        "health": "Normal",
+        "healthy_bmi_range": "18.5 - 25"
+    }
+}
 ```
 
 
