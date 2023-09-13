@@ -12,7 +12,7 @@ const options = {
   }
 };
 
-```
+
 const options = {
   method: 'GET',
   url: 'https://fitness-calculator.p.rapidapi.com/bmi',
